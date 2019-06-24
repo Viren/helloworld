@@ -1,4 +1,3 @@
-<powershell>
 #requires -version 4.0
 
 # PowerShell 4 or up is required to run this script
@@ -53,4 +52,3 @@ Start-Sleep -s 50
 #& $Env:ProgramFiles"\Trend Micro\Deep Security Agent\dsa_control" -a dsm://agents.deepsecurity.trendmicro.com:443/ "tenantID:5A1AFCD1-A5F8-85CB-7251-AF2F20AAE3C0" "token:C9FE9637-1D1C-0921-1040-9DF3775FCAFE" "policyid:9"
 Stop-Transcript
 echo "$(Get-Date -format T) - DSA Deployment Finished"
-</powershell>
